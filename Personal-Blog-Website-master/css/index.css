@@ -140,14 +140,12 @@
   color: #fffaf0;
 }
 
-
+.link:visited {
+  color: #fffaf0;
+}
 
 .link:hover {
   color: #F6AA1C;
-}
-
-.link:visited {
-  color: #fffaf0;
 }
 
 .post-info {
@@ -197,15 +195,6 @@ input[type=text], input[type=submit] {
   box-sizing: border-box;
 }
 
-
-
-input[type=submit]:hover {
-  background-color: transparent;
-  border: 2px solid #e54b4b;
-  color: #e54b4b;
-  transform: scale(0.9);
-}
-
 input[type=submit] {
   font-size: 1.1em;
   letter-spacing: 0.1em;
@@ -218,6 +207,13 @@ input[type=submit] {
   color: #fffaf0;
   transition: all 0.3s;
   border: none;
+}
+
+input[type=submit]:hover {
+  background-color: transparent;
+  border: 2px solid #e54b4b;
+  color: #e54b4b;
+  transform: scale(0.9);
 }
 
 @media (min-width: 600px) and (max-width: 780px) {
